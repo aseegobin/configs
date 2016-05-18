@@ -1,0 +1,28 @@
+{
+	"annotations": true,
+	"binary_file_patterns":
+	[
+		"node_modules/*",
+		"images/*",
+		"libs/*",
+		"fonts/*",
+		"audio/*",
+		"icons/fonts/*",
+		"app/*"
+	],
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.pdf",
+		".DS_Store",
+		"*.zip"
+	],
+	"font_size": 17.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}
