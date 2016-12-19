@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"Babel",
+		"BracketHighlighter",
+		"DocBlockr_with_update_capability",
+		"GitGutter",
+		"GitStatusBar",
+		"HTML-CSS-JS Prettify",
+		"Inc-Dec-Value",
+		"JavaScriptNext - ES6 Syntax",
+		"Markdown Preview",
+		"Origami",
+		"Package Control",
+		"Predawn",
+		"Pretty JSON",
+		"Require CommonJS Modules Helper",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-annotations"
+	]
+}
