@@ -1,0 +1,35 @@
+{
+	"annotations": true,
+	"binary_file_patterns":
+	[
+		"node_modules/*",
+		"images/*",
+		"libs/*",
+		"fonts/*",
+		"audio/*",
+		"icons/fonts/*"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"file_exclude_patterns":
+	[
+		"*.pdf",
+		".DS_Store",
+		"*.zip"
+	],
+	"font_size": 15.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
