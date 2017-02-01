@@ -6,7 +6,9 @@
 	"installed_packages":
 	[
 		"AlignTab",
+		"Arduino-like IDE",
 		"Babel",
+		"Boxy Theme",
 		"BracketHighlighter",
 		"DocBlockr_with_update_capability",
 		"GitGutter",
@@ -21,6 +23,7 @@
 		"Pretty JSON",
 		"Require CommonJS Modules Helper",
 		"SideBarEnhancements",
+		"Skins",
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-annotations"
