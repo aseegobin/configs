@@ -1,0 +1,15 @@
+[
+   // align =
+  {
+    "keys": ["super+shift+="], "command": "align_tab",
+    "args" : {"user_input" : "=/f"}
+  },
+  // align :
+  {
+    "keys": ["super+shift+;"], "command": "align_tab",
+    "args" : {"user_input" : ":/f"}
+  },
+  {
+    "keys": ["super+k", "super+shift+b"], "command": "reveal_in_side_bar"
+  }
+]
