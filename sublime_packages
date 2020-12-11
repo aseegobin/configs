@@ -1,31 +1,37 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"AlignTab",
-		"Arduino-like IDE",
-		"Babel",
-		"Boxy Theme",
-		"BracketHighlighter",
-		"DocBlockr_with_update_capability",
-		"GitGutter",
-		"GitStatusBar",
-		"HTML-CSS-JS Prettify",
-		"Inc-Dec-Value",
-		"JavaScriptNext - ES6 Syntax",
-		"Markdown Preview",
-		"Origami",
-		"Package Control",
-		"Predawn",
-		"Pretty JSON",
-		"Require CommonJS Modules Helper",
-		"SideBarEnhancements",
-		"Skins",
-		"Stylus",
-		"SublimeLinter",
-		"SublimeLinter-annotations"
-	]
+  "bootstrapped": true,
+  "in_process_packages":
+  [
+  ],
+  "installed_packages":
+  [
+    "A File Icon",
+    "AlignTab",
+    "Babel",
+    "Boxy Theme",
+    "BracketHighlighter",
+    "Color Highlight",
+    "DocBlockr",
+    "Dockerfile Syntax Highlighting",
+    "GitGutter",
+    "GitStatusBar",
+    "Handlebars",
+    "HTML-CSS-JS Prettify",
+    "Inc-Dec-Value",
+    "JavaScriptNext - ES6 Syntax",
+    "M3U Syntax",
+    "Origami",
+    "Package Control",
+    "Pretty JSON",
+    "Protobuf Syntax Hightlighting",
+    "Sass",
+    "SideBarEnhancements",
+    "Skins",
+    "Stylus",
+    "SublimeLinter",
+    "SublimeLinter-annotations",
+    "SVGO",
+    "Vue Syntax Highlight",
+    "Vuejs Snippets"
+  ]
 }
