@@ -21,18 +21,24 @@
     "*/packs.json",
     "**/thirdparty/*.js",
     "**/thirdparty/*/*.js",
-    "**/s3_mock/*"
+    "**/thirdparty/*.css",
+    "**/thirdparty/*/*.css",
+    "**/s3_mock/*",
+    "**/_builds/*",
+    "**/artifacts/chrome-extension/static/fonts.css",
+    "**/*.pyc"
   ],
   "bold_folder_labels": true,
   "caret_style": "smooth",
-  "color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+  "color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
   [
     "*.pdf",
     ".DS_Store",
     "*.zip",
-    "*.map"
+    "*.map",
+    "*package-lock.json"
   ],
   "folder_exclude_patterns":
   [
@@ -46,10 +52,11 @@
     "env"
   ],
   "font_size": 15,
+  "hide_minimap": true,
   "highlight_line": true,
   "ignored_packages":
   [
-    "Vintage"
+    "Vintage",
   ],
   "rulers":
   [
@@ -57,9 +64,9 @@
   ],
   "scroll_past_end": true,
   "show_minimap": false,
-  "skin": "Boxy Theme/Boxy Monokai ★ Predawn",
+  "skin": "ayu/ayu mirage",
   "tab_size": 2,
-  "theme": "Boxy Monokai.sublime-theme",
+  "theme": "Adaptive.sublime-theme",
   "theme_accent_tangerine": true,
   "theme_autocomplete_item_selected_colored": true,
   "theme_bar_margin_top_sm": true,
@@ -79,5 +86,5 @@
   "theme_tab_size_md": true,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
+  "word_wrap": true,
 }
