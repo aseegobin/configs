@@ -11,5 +11,10 @@
   },
   {
     "keys": ["super+k", "super+shift+b"], "command": "reveal_in_side_bar"
+  },
+  // Remove duplicate lines
+  {
+    "keys": ["super+k", "super+shift+u"], "command": "permute_lines",
+    "args": {"operation": "unique"}
   }
 ]
