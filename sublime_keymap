@@ -9,7 +9,21 @@
     "keys": ["super+shift+;"], "command": "align_tab",
     "args" : {"user_input" : ":/f"}
   },
+  // reveal file in sidebar
   {
     "keys": ["super+k", "super+shift+b"], "command": "reveal_in_side_bar"
-  }
+  },
+  // Remove duplicate lines
+  {
+    "keys": ["super+k", "super+shift+u"], "command": "permute_lines",
+    "args": {"operation": "unique"}
+  },
+  // pretty json of selected lines
+  {
+    "keys": ["super+k", "super+shift+'"], "command": "pretty_json"
+  },
+  // copy file path
+  {
+    "keys": ["super+k", "super+shift+p"], "command": "side_bar_copy_path_relative_from_project_encoded"
+  },
 ]
