@@ -1,3 +1,5 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
   "annotations": true,
   "binary_file_patterns":
@@ -5,7 +7,7 @@
     ".git/*",
     "node_modules/**",
     "images/*",
-    "libs/*",
+    // "libs/*",
     "fonts/*",
     "audio/*",
     "icons/fonts/*",
@@ -13,26 +15,50 @@
     "build/*",
     "coverage/**",
     "dist/*",
-    "public/*.min.*",
-    "public/*/build.*.js",
+    "*.min.*",
+    "*/build.*.js",
     "package-lock.json",
     "assets/js/*",
     "*.report.html",
     "*/packs.json",
     "**/thirdparty/*.js",
     "**/thirdparty/*/*.js",
-    "**/s3_mock/*"
+    "**/thirdparty/*.css",
+    "**/thirdparty/*/*.css",
+    "**/s3_mock/*",
+    "**/_builds/*",
+    "**/artifacts/chrome-extension/static/fonts.css",
+    "**/*.pyc",
+    "**/.yarn/**",
+    "index.test.ts.snap",
+    "**/*MCPSDK*/**",
+    ".direnv/*",
+    ".metro-cache/*",
+    "*replay.json",
+    "SKILL.md",
+    ".jest-cache/*"
   ],
   "bold_folder_labels": true,
   "caret_style": "smooth",
-  "color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+  "color_scheme": "ayu-mirage.sublime-color-scheme",
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
   [
     "*.pdf",
     ".DS_Store",
     "*.zip",
-    "*.map"
+    "*.map",
+    "*package-lock.json",
+    "*.mp4",
+    "*.lock",
+    "*/generated/*",
+    "project.pbxproj",
+    "*.png",
+    "*.otf",
+    "*replay.json",
+    "*rspec.log",
+    "*.scss",
+    "pnpm-lock.yaml"
   ],
   "folder_exclude_patterns":
   [
@@ -43,23 +69,25 @@
     "*/log",
     "integ_tests",
     "int-test",
-    "env"
+    "*.xcodeproj"
   ],
-  "font_size": 15,
+  "font_size": 18,
+  "hide_minimap": true,
   "highlight_line": true,
+  "hot_exit": "disabled",
   "ignored_packages":
   [
-    "Vintage"
+    "Vintage",
   ],
   "rulers":
   [
-    120
+    80
   ],
   "scroll_past_end": true,
   "show_minimap": false,
-  "skin": "Boxy Theme/Boxy Monokai ★ Predawn",
+  "skin": "ayu/ayu mirage",
   "tab_size": 2,
-  "theme": "Boxy Monokai.sublime-theme",
+  "theme": "ayu-mirage.sublime-theme",
   "theme_accent_tangerine": true,
   "theme_autocomplete_item_selected_colored": true,
   "theme_bar_margin_top_sm": true,
@@ -79,5 +107,6 @@
   "theme_tab_size_md": true,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
+  "word_wrap": true,
+  "index_files": true,
 }
